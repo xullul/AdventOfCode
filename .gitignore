@@ -3,9 +3,26 @@
 .DS_Store
 node_modules/
 
-# Editor
-.vscode
+# IDE specific files
+.vscode/
+.idea/
 
 # Python
 __pycache__/
 env/
+
+# Rust/Cargo generated files
+**/*/rust_language/target/
+**/*.rs.bk
+
+# Rust compiled files
+*.rs.bk
+*.rlib
+*.rmeta
+
+# Rust executables
+**/*/rust_language/target/debug/
+**/*/rust_language/target/release/
+
+# Generated documentation
+**/*/rust_language/target/doc/
