@@ -1,3 +1,5 @@
+// Rust 1.75.0
+
 use std::fs::File;
 use std::io::{self, BufRead, BufReader};
 

@@ -1,3 +1,5 @@
+-- Lua 5.4.6
+
 function openfile(filepath)
     local file = io.open(filepath)
 

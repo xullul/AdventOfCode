@@ -1,3 +1,5 @@
+// NodeJS 21.5.0
+
 const fs = require('node:fs');
 
 
