@@ -7,6 +7,49 @@ node_modules/
 .vscode/
 .idea/
 
+# Visual Studio files
+*.user
+*.suo
+*.cache
+*.vscode/
+*.ntvs_analysis.dat
+*.nupkg
+*.pfx
+*.snk
+*.sw?
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
 # Python
 __pycache__/
 env/
@@ -24,5 +67,9 @@ env/
 **/*/rust_language/target/debug/
 **/*/rust_language/target/release/
 
-# Generated documentation
+# Rust Generated documentation
 **/*/rust_language/target/doc/
+
+# .NET
+bin/
+obj/
